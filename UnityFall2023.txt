@@ -1,0 +1,57 @@
+README ---
+This is just an outline for us to be on the same page and editting this to fit the direction of our game is strongly encouraged. 
+
+
+PITCH ---
+A Steampunk/High-fantasy,Top-down, RogueLite, Bullethell, with emphasis on synergy with NPC party members. Go from room to room, picking of items for you and your team that increase your power and abilities. Game begins fresh on every start. Play until defeat.
+
+THEME ---
+Where Steampunk meets Highfantasy with a little bit of Multiversal. Common, Uncommon, and Rare Items match the overall main theme. Epic, Legendary might align with a multiversal and more absurd theme.
+
+PLAYER ---
+The player design is simple. Movement in all directions. Mouse pointer tied to direction. The Player holds 3 types of objects: Capabilities, Armor, and Trinkets. Mouse click to use current equipped capabilites. An action bar for other stored capabilites. A default dodge ability. Level tied to room cleared. *Action Bar slots tied to Boss rooms beaten. 
+
+ROOM DESIGN ---
+A typical "room" would consist of a rigid border, with different optional choice "doors" between other rooms. Room consists of various enemies and game modes. Party enters a room, trapped until the room is cleared, which upon cleared, rewards the party with a new random item. Procedural generated, but with respect to the type of room.
+
+- Types: Horde, Arena, Elite, Boss, Hub/Checkpoint, Store, etc.
+- Environment: Damaging, Obstacles, Chests, Walls, Holes, etc.
+
+PARTY MEMBERS ---
+Generated NPCs will appear throughout the game (how they appear tbd) that come prequiped with starting items, generally with some sort of theme/class. They move and fight independetly alongside you from room to room, gaining new items as well along the way, using their own abilities, They can die (*items destroyed upon death). Very sad.
+
+ENEMY DESIGN ---
+Enemies spawn in immediatly upon entering a room. All kinds of themes and abilities and modifiers. They will have all different types of behaviour acting against the party. When all enemies are defeated the room is cleared, items are recieved, and the party can move on.
+
+- Basic
+- Elite
+- Boss
+
+ITEMS ---
+There are 3 classes of items: Weapons, Armor, and Trinkets. Weapons are your currently equipped action. They are stored on your action bar with 10 total slots. Depending on the item. they are considered "equipped as an action to your mouseclick", or might act independently as a hotkey. On a fresh run, you start with 1 slot with 1 equipped starting weapon/action. When a Boss is defeated, a new slot is acquired, up to 10 slots. Armor are types of equipment with stronger, more powerful effects than Trinkets, typically revolving around defense and structured class features. Limited to 5 slots. Trinkets are the bread and butter - Many collectables with stacking effects that give any and all types of powers, bonuses, and stats. 
+
+- Weapons* (although not limited to just weapons)
+	swords,guns,magic,melee,ranged,shield
+
+- Armor
+	Helmet, Chest, Pauldron, Gauntlets, Greaves(an aura buff, crowd control)
+
+- Trinkets
+	Any kind of item that does some small effect or stat increase(+10% attack speed or adds a stack of fire damage or +25 Health)
+
+HUD ---
+- Health displayed on the bottom left corner
+- simple map of the rooms top left.
+- action bar bottom center
+- weapon info bottom right
+- status effects top right
+- health bar of each party member above their head
+
+MENU ---
+
+SOUND ---
+
+
+GAME MECHANIC ---
+
+
