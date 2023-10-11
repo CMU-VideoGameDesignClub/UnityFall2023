@@ -14,6 +14,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // sound here
         DestroyBullet(); // Call this method on collision as well.
     }
 
