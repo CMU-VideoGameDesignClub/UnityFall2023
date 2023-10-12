@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    [SerializeField] private AudioClip _clip;
+
     public GameObject bulletPreFab;
     public Transform firePoint;
     public float fireForce = 20f;
@@ -12,6 +14,7 @@ public class Weapon : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPreFab, firePoint.position,firePoint .rotation);
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+        SoundManager.Instance.PlaySound(_clip);
     }
 
 }

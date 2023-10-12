@@ -162,3 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyDelay: 2
+  _clip: {fileID: 8300000, guid: 52252fb5d63a6324e8cf92a9a2224d8c, type: 3}
