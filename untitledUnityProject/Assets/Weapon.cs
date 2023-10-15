@@ -12,9 +12,9 @@ public class Weapon : MonoBehaviour
 
     public void Fire()
     {
+        SoundManager.Instance.PlaySound(_clip);
         GameObject bullet = Instantiate(bulletPreFab, firePoint.position,firePoint .rotation);
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
-        SoundManager.Instance.PlaySound(_clip);
     }
 
 }
